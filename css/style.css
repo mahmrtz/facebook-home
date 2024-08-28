@@ -1,0 +1,815 @@
+body{
+    background-color: #514bb1       ;
+}
+
+
+.page-main{
+    width: 360px;
+    min-height: 500px;
+    float: left;
+    box-sizing: border-box;
+    position: absolute;
+    top: 45px;
+    left: 125px;
+    background-color: rgb(202, 201, 209);
+    right: 125px;
+    box-shadow: 0px 0px 40px 1px black;
+}
+
+
+
+.top {
+    width: 100%;
+    height: 18px;
+    float: left;
+    box-sizing: border-box;
+    background-color: #514bb1;
+}
+
+
+.fb-logo {
+    left: 25px;
+    position: absolute;
+    background-color: white;
+    height: 12px;
+    width: 12px;
+    top: 3px;
+}
+
+
+.fb-logo:hover{
+    cursor: pointer;
+}
+
+
+.fb-logo img {
+    height: 10px;
+    width: 9px;
+    top: 2px;
+    position: absolute;
+    left: 2.5px;
+}
+
+
+#top-username span:hover{
+    color:rgb(194, 194, 194);
+}
+
+
+#top-pfp:hover{
+    background-color: rgb(149, 143, 143);
+}
+
+
+
+#home-page span:hover{
+    color: rgb(194, 194, 194);
+}
+.search{
+    width: 115px;
+    height: 12px;
+    background: white;
+    position: absolute;
+    top: 3px;
+    left: 60px;
+    border-radius: 5%;
+    transition: 0.5s;
+}
+
+
+.search:hover{
+    cursor: pointer;
+    background: rgb(139, 137, 137);
+}
+
+
+
+.search img {
+    width: 8px;
+    height: 8px;
+    left: 100px;
+    position: absolute;
+    top: 2px;
+}
+
+
+
+#top-pfp{
+    width: 13px;
+    height: 13px;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    top: 2px;
+    left: 190px;
+}
+
+
+#top-username {
+    position: absolute;
+    /* background-color: white; */
+    width: 40px;
+    min-height: 0px;
+    left: 206px;
+    top: -3px;
+}
+
+#top-username span {
+    font-size: 7px;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+
+#home-page{
+    left: 240px;
+    position: absolute;
+    top: -3px;
+}
+
+#home-page span{
+    font-size: 7px;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+
+.top-menu {
+    width: 100px;
+    height: 100%;
+    position: absolute;
+    left: 260px;
+    /* background: white; */
+}
+
+
+#friends-logo img{
+    width: 10px;
+    height: 8px;
+    position: absolute;
+    top: 5px;
+    left: 5px;
+}
+
+
+#messenger img {
+    width: 12px;
+    height: 12px;
+    position: absolute;
+    top: 3px;
+    left: 20px;
+}
+
+#theme img {
+    width: 9px;
+    height: 9px;
+    top: 4px;
+    left: 36px;
+    position: absolute;
+}
+
+
+#lock img {
+    width: 9px;
+    height: 9px;
+    top: 4px;
+    left: 51px;
+    position: absolute;
+}
+
+
+#more-dot span {
+    font-size: 30px;
+    left: 66px;
+    top: -16px;
+    position: absolute;
+}
+
+
+.menusss:hover{
+    cursor: pointer;
+    color: white;
+}
+
+
+.menusss{
+    transition: 0.5s;
+}
+
+
+
+.profile{
+    background-color: white;
+    width: 300px;
+    height: 120px;
+    position: absolute;
+    top: 25px;
+    left: 30px;
+}
+
+.profile-banner{
+    width: 300px;
+    height: 100px;
+    background-color: #514bb1;
+    position: absolute;
+    float: left;
+    box-sizing: border-box;
+}
+
+
+.pfp{
+    width: 60px;
+    height: 60px;
+    background-color: white;
+    position: absolute;
+    top: 55px;
+    left: 15px;
+    border-radius: 50%;
+    transition: 0.5s; 
+    box-shadow: 0px 0px 10px 1px black;
+    z-index: 11;
+}
+
+
+
+.pfp:active{
+    width: 200px;
+    height: 200px;
+    box-shadow: 0px 0px 10px 10px black;
+    box-sizing: border-box;
+    position: absolute;
+    left: 45px;
+    
+
+}
+
+.pfp:hover{
+    cursor: pointer;
+    background-color: rgb(150, 150, 150);
+}
+
+.prof-name{
+    width: 80px;
+    height: 20px;
+    /* background-color: white; */
+    position: absolute;
+    left: 85px;
+    top: 80px;
+}
+
+.prof-name span {
+    font-size: 9px;
+    position: absolute;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+}
+
+.name-bio span{
+    font-size: 7px;
+    position: absolute;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    top: 10px;
+}
+
+
+.like{
+    width: 25px;
+    height: 10px;
+    position: absolute;
+    left: 183px;
+    top: 88px;
+    background-color: white;
+    transition: 0.5s;
+    border-radius: 10%;
+}
+
+.like:hover{
+    cursor: pointer;
+    background-color: rgb(149, 143, 143);
+}
+
+.like img{
+    width: 6px;
+    height: 6px;
+    position: absolute;
+    top: 2px;
+    left: 1px;
+}
+
+/* Copyright by Mahammad :> */
+
+.like span{
+    font-size: 6px;
+    position: absolute;
+    left: 10px;
+    top: 2px; 
+}
+
+
+.menu-prof{
+    width: 85px;
+    height: 10px;
+    left: 210px;
+    top: 88px;
+    /* background-color: white; */
+    position: absolute;
+}
+
+#follow{
+    min-width: 28px;
+    background-color: white;
+    height: 10px;
+    position: absolute;
+    border-radius: 10%;
+    
+}
+
+#message-button {
+    width: 32px;
+    height: 10px;
+    background-color: white;
+    position: absolute;
+    left: 26px;
+    border-left: solid 0.8px black;
+    border-right: solid 0.8px black;
+}
+
+
+#message-button:hover{
+    cursor: pointer;
+    background-color: rgb(195, 194, 194);
+}
+
+#follow:hover{
+    cursor: pointer;
+    background-color: rgb(195, 194, 194);
+}
+
+.prof-menus{
+    transition: 0.5s;
+}
+
+
+#dots{
+    width: 15px;
+    height: 10px;
+    position: absolute;
+    background-color: white;
+    transition: 0.5s;
+    left: 59.5px;
+    border-radius: 8%;
+}
+
+#dots img{
+    width: 9px;
+    height: 9px;
+    position: absolute;
+    top: 0.5px;
+    left: 2.5px;
+}
+
+#dots:hover{
+    cursor: pointer;
+    background-color: rgb(195, 194, 194);
+}
+
+#follow img{
+    width: 7px;
+    height: 7px;
+    position: absolute;
+    top: 1.5px;
+    left: 1px;
+}
+
+#follow span{
+    font-size: 6px;
+    position: absolute;
+    left: 8px;
+    top: 1.5px;
+}
+
+#message-button img{
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    top: 1.5px;
+    left: 1px;
+}
+
+#message-button span{
+    font-size: 6px;
+    position: absolute;
+    left: 10px;
+    top: 1.5px;
+}
+
+
+.about-block{
+    width: 120px;
+    height: 90px;
+    background-color: white;
+    position: absolute;
+    top: 150px;
+    left: 30px;
+}
+
+.h1 h1{
+    left: 12px;
+    position: absolute;
+    top: 10px;
+    font-size: 6.5px;
+    color: gray;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+.p-graphs{
+    width: 96px;
+    height: 3px;
+    position: absolute;
+    background:hsla(0, 0%, 43%, 0.2);
+
+}
+
+
+#fst-p-graph{
+    top: 30px;
+    left: 12px;
+}
+
+
+#snd-p-graph{
+    top: 40px;
+    left: 12px;
+}
+
+
+#trd-p-graph{
+    top: 50px;
+    left: 12px;
+}
+
+
+
+#fth-p-graph{
+    top: 60px;
+    left: 12px;
+}
+
+
+.suggestions{
+    width: 120px;
+    height: 120px;
+    background-color: white;
+    position: absolute;
+    top: 247px;
+    left: 30px;
+}
+
+.sug-prof{
+    width: 43px;
+    height: 30px;
+    background: #514bb1;
+    position: absolute;
+    transition: 0.5s;
+}
+
+.sug-prof:hover{
+    background: #39347c;
+    cursor: pointer;
+}
+
+#sug-pf-1{
+    top: 7px;
+    left: 7px;
+}
+
+#sug-pf-2{
+    top: 44px;
+    left: 7px;
+}
+
+#sug-pf-3{
+    top: 81px;
+    left: 7px;
+}
+
+
+.sug-name{
+    width: 55px;
+    height: 4px;
+    background-color: hsla(0, 0%, 43%, 0.4);
+    position: absolute;
+}
+
+
+#name-1{
+    top: 20px;
+    left: 55px;
+}
+
+
+#name-2{
+    top: 55px;
+    left: 55px;
+}
+
+
+#name-3{
+    top: 93px;
+    left: 55px;
+}
+
+
+
+
+.mutual-friends{
+    width: 120px;
+    height: 120px;
+    background: white;
+    position: absolute;
+    top: 375px;
+    left: 30px;
+}
+
+.friend{
+    width: 34px;
+    height: 34px;
+    background-color:#514bb1;
+    position: absolute;
+    transition: 0.5s;
+}
+
+.friend:hover{
+    cursor: pointer;
+    background-color: #39347c;
+}
+
+
+#bir{
+    top: 5px;
+    left: 5px;
+}
+
+#iki{
+    top: 5px;
+    left: 43px;
+}
+
+#uc{
+    top: 5px;
+    left: 81px;
+}
+
+
+#dord{
+    top: 43px;
+    left: 5px;
+}
+
+#bes{
+    top: 43px;
+    left: 43px;
+}
+
+#alti {
+    top: 43px;
+    left: 81px;
+}
+
+#yedi{
+    top: 81px;
+    left: 5px;
+}
+
+#sekiz{
+    top: 81px;
+    left: 43px;
+}
+
+
+.added-event{
+    position: absolute;
+    width: 175px;
+    height: 150px;
+    background-color: white;
+    left: 155px;
+    top: 150px;
+}
+
+
+.post-pfp{
+    width: 23px;
+    background-color: #514bb1;
+    height: 23px;
+    position: absolute;
+    left: 10px;
+    top: 5px;
+    transition: 0.5s;
+    border-radius: 50%;
+    z-index: 10;
+}
+
+
+.post-pfp:active{
+    width: 100px;
+    height: 100px;
+    left: -50px;
+    /* z-index: 10; */
+    box-shadow: 0px 0px 4px 1px black;
+}
+
+
+.post-pfp:hover{
+    /* z-index: 10; */
+}
+
+
+.post-pfp:hover{
+    background-color: #39347c;
+    cursor: pointer;
+}
+
+.title-post{
+    height: 23px;
+    width: 100px;
+    position: absolute;
+    left: 38px;
+    top: 5px;
+    /* background: wheat; */
+}
+
+.title-post span{
+    top: 3px;
+    font-size: 7px;
+    position: absolute;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.date span{
+    font-size: 5px;
+    position: absolute;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    top: 13px;
+    color: hsla(0, 0%, 43%, 0.6);
+}
+
+
+.event{
+    width: 155px;
+    height: 70px;
+    background-color: #514bb1;
+    position: absolute;
+    top: 30px;
+    left: 10px;
+    transition: 0.5s;
+}
+
+.event:hover{
+    background: #39347c;
+    cursor: pointer;
+}
+
+
+.event-name{
+    width: 40px;
+    height: 20px;
+    position: absolute;
+    /* background: wheat; */
+    top: 3px;
+    left: 3px;
+}
+
+.event-name span{
+    font-size: 8px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: absolute;
+    color: #514bb1;
+}
+.bottom-of-the-event{
+    width: 155px;
+    height: 30px;
+    background-color: white;
+    position: absolute;
+    top: 100px;
+    left: 10px;
+    border-left: solid 0.5px gray;
+    border-bottom: solid 0.5px gray;
+    border-right: solid 0.5px gray;
+}
+
+.event-p-graphs{
+    width: 70px;
+    height: 3px;
+    position: absolute;
+    background: hsla(0, 0%, 43%, 0.2);
+}
+
+
+#e1{
+    top: 13px;
+    left: 3px;
+}
+
+#e2{
+    top: 18px;
+    left: 3px;
+}
+
+#e3{
+    top: 23px;
+    left: 3px;
+    width: 50px;
+}
+
+.that-shi-button{
+    width: 20px;
+    height: 10px;
+    background: white;
+    position: absolute;
+    top: 10px;
+    left: 125px;
+    border: solid 0.5px gray;
+    transition: 0.5s;
+}
+
+.that-shi-button:hover{
+    background: rgb(194, 194, 194);
+    cursor: pointer;
+}
+
+.like-event span{
+    font-size: 7px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: absolute;
+    top: 136px;
+    left: 10px;
+    transition: 0.5s;
+}
+
+.comment-event span{
+    font-size: 7px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: absolute;
+    top: 136px;
+    left: 27px;
+    transition: 0.5s;
+}
+
+
+.share-event span{
+    font-size: 7px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: absolute;
+    top: 136px;
+    left: 60px;
+    transition: 0.5s;
+}
+
+
+
+.like-event span:hover{
+    color: rgb(195, 194, 194);
+    cursor: pointer;
+}
+
+
+.comment-event span:hover{
+    color: rgb(195, 194, 194);
+    cursor: pointer;
+}
+
+
+.share-event span:hover{
+    color: rgb(195, 194, 194);
+    cursor: pointer;
+}
+
+
+.added-pic{
+    width: 175px;
+    height: 190px;
+    background-color: white;
+    position: absolute;
+    top: 305px;
+    left: 155px;
+}
+
+#photo {
+    height: 140px;
+}
+
+#pic1{
+    top: 175px;
+}
+
+#pic2{
+    top: 175px;
+}
+
+#pic3{
+    top: 175px;
+}
+
